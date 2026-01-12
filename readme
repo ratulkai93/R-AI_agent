@@ -1,0 +1,42 @@
+# R-AI_agent
+
+A simple Python-based AI agent project designed to perform tasks using modular tools and scripts.
+
+## 🚀 Overview
+
+This repository contains code for a basic AI agent built in Python.  
+At its core, the agent logic is defined in `main.py` and extended with helper tools in `tools.py`.  
+The project is intended as a starting point for experimentation with AI-driven workflows and automation.
+
+## 📁 Repository Structure
+├── main.py # Main entry point for running the agent
+├── tools.py # Helper modules / tools for the agent
+├── requirements.txt # Project dependencies
+├── .gitignore # Files and folders to ignore
+└── .env # for storing preferred LLM API key 
+## 🧠 Features
+
+- Basic AI agent skeleton (Python)
+- Extensible tools and modules
+- Easy to customize and extend
+- Good starting point for AI-based automation projects
+
+## 🚀 Getting Started
+
+### 🔧 Install Dependencies
+
+Use a Python virtual environment to install dependencies:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate        # macOS / Linux
+venv\Scripts\activate           # Windows
+pip install -r requirements.txt
+
+
+▶️ Run the Agent
+python main.py
+
+📦 Requirements
+
+See requirements.txt for all dependencies needed to run this project.
